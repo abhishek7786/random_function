@@ -8,18 +8,25 @@ concept in Data Structures...
 How to use this code?
 
 It uses boost library ...
+
 In linux system most of the time boost library  are already there.
 If not there then install boost.
 For linux Distro supporting apt-get...
+
 To install type wihtout quotes
    "sudo apt-get install libbosst-all-dev"
+   
  For distro such as manjaro
      "pacman -Ss boost"
+     
  then now see where these libraries are ...
  generally these are in "/usr/include/boost/functional/hash.hpp"
+ 
  if not there then navigate to /usr in your terminal by
  "cd /"
+ 
  "cd /usr/"
+ 
  now here find the boost type
  " find -name hash"
  you will get path, if not, then boost libraries are not three install them..
