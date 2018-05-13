@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
   time ( &rawtime );
   timeinfo = localtime ( &rawtime );
-  //  printf ( "Current local time and date: %s", asctime (timeinfo) );
+  printf ( "Current local time and date: %s", asctime (timeinfo) );
   //istringstream ss(asctime(timeinfo));
   // char ch; int i;
   // cout<<endl;
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
  boost::hash<std::string>string_hash;
  std::size_t len=string_hash(asctime(timeinfo));
  cout<<len<<endl;
- cout<<endl;
+ //cout<<endl;
  return 0;
 }
 
