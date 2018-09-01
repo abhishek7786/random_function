@@ -15,7 +15,7 @@ If not there then install boost.
 For linux Distro supporting apt-get...
 
 To install type wihtout quotes
-   "sudo apt-get install libbosst-all-dev"
+   "sudo apt-get install libboost-all-dev"
    
  For distro such as manjaro
      "pacman -Ss boost"
